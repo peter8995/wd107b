@@ -1,0 +1,22 @@
+th
+	{
+		background-color:#Addddd;
+	}
+td
+	{
+		background-color:#Deeeee;
+	}
+table 
+	{
+	    border-collapse: collapse;
+	}
+table, th, td 
+	{
+	    border: 1px solid black;
+        padding: 5px;
+        margin: 5px;
+	}
+a:link {color:#000000;}     
+a:visited {color:#AA00AA;}  
+a:hover {color:#FF88FF;}  
+a:active {color:#0000FF;}  
