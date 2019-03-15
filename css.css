@@ -16,7 +16,13 @@ table,th,td
         padding: 5px;
         margin: 5px;
         font-family: "微軟正黑體", "Microsoft JhengHei", "Segoe UI Semibold", "Segoe UI", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
-	}
+    }
+p
+    {
+        padding: 5px;
+        margin: 5px;
+        font-family: "微軟正黑體", "Microsoft JhengHei", "Segoe UI Semibold", "Segoe UI", "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;   
+    }
 a:link {color:#000000;}     
 a:visited {color:#AA00AA;}  
 a:hover {color:#FF88FF;}  
