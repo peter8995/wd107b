@@ -2,11 +2,10 @@
 <html>
 <head>
 <style>
+body {
+  margin: 0px; 
+}
 ul {
-  position:relative;
-  top:-8px;
-
-  left:-8px;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -55,9 +54,8 @@ li.dropdown {
 
 .dropdown-content a:hover {background-color: red}
 
-.dropdown:hover .dropdown-content {
-  display: block;
-}
+.dropdown:hover .dropdown-content {display: block;}
+
 ul.sidebar {
   list-style-type: none;
   margin: 0;
@@ -70,7 +68,7 @@ ul.sidebar {
   top: 46px;
   left:0px;
   width: 80px;
-  height: 1000px;
+  height: 1000px;	
 }
 
 li.sidebar a {
@@ -83,11 +81,13 @@ li.sidebar a {
 li.sidebar a.active {
   background-color: red;
   color: white;
+  width:50px;
 }
 
 li.sidebar a:hover:not(.active) {
   background-color: red;
   color: white;
+  width:50px;
 }
 p,h3 {
 	position:relative;
@@ -110,7 +110,7 @@ p,h3 {
   </li>
 </ul>
 <ul class="sidebar">
-  <li class="sidebar"><a class="active" href="#home">Home Page</a></li>
+  <li class="sidebar"><a class="active" href="#home">Home</a></li>
   <li class="sidebar"><a href="#news">News</a></li>
   <li class="sidebar"><a href="#contact">Contect</a></li>
   <li class="sidebar"><a href="#about">About</a></li>
