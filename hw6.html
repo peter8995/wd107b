@@ -3,6 +3,10 @@
 <head>
 <style>
 ul {
+  position:relative;
+  top:-8px;
+
+  left:-8px;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -12,6 +16,7 @@ ul {
 
 li {
   float: left;
+
 }
 
 li a, .dropbtn {
@@ -62,8 +67,9 @@ ul.sidebar {
   position: fixed;
   height: 100%;
   overflow: auto;
-  top: 54px;
-  width: 64px;
+  top: 46px;
+  left:0px;
+  width: 80px;
   height: 1000px;
 }
 
@@ -85,7 +91,7 @@ li.sidebar a:hover:not(.active) {
 }
 p,h3 {
 	position:relative;
-	left:75px;
+	left:90px;
 }
 </style>
 </head>
@@ -104,10 +110,10 @@ p,h3 {
   </li>
 </ul>
 <ul class="sidebar">
-  <li class="sidebar"><a class="active" href="#home">主页</a></li>
-  <li class="sidebar"><a href="#news">新闻</a></li>
-  <li class="sidebar"><a href="#contact">联系</a></li>
-  <li class="sidebar"><a href="#about">关于</a></li>
+  <li class="sidebar"><a class="active" href="#home">Home Page</a></li>
+  <li class="sidebar"><a href="#news">News</a></li>
+  <li class="sidebar"><a href="#contact">Contect</a></li>
+  <li class="sidebar"><a href="#about">About</a></li>
 </ul>
 
 <h3>Dropdown Menu inside a Navigation Bar</h3>
