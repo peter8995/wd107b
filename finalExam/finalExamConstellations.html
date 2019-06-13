@@ -1,0 +1,174 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>星座辨識</title>
+ 
+<script type="text/JavaScript">
+    function Identification(){
+        var ojMonth = document.getElementById("monthSelect").value;
+        var month = parseInt(ojMonth);
+        var output = document.getElementById("output");
+        var ojDay = document.getElementById("daySelect").value;
+        var day = parseInt(ojDay);
+ 
+        if(month==2 && day==30) output.innerHTML = "輸入正確日期!";
+        if(month==2 && day==31) output.innerHTML = "輸入正確日期!";
+        if(month==4 && day==31) output.innerHTML = "輸入正確日期!";
+        if(month==6 && day==31) output.innerHTML = "輸入正確日期!";
+        if(month==9 && day==31) output.innerHTML = "輸入正確日期!";
+        if(month==11 && day==31) output.innerHTML = "輸入正確日期!";
+ 
+        if (month == 1 )
+        {
+            if (day <= 20)
+           {
+                output.innerHTML ="摩羯座"; 
+           }
+           else output.innerHTML ="水瓶座" ;
+       }
+       else if (month == 2 )
+       {
+           if (day <= 19) output.innerHTML ="水瓶座";
+           else output.innerHTML ="雙魚座" ;
+       }
+       else if (month == 3 )
+       {
+           if (day <= 20) output.innerHTML ="雙魚座";
+           else output.innerHTML ="牡羊座" ;
+       }
+       else if (month == 4 )
+       {
+           if (day <= 20) output.innerHTML ="牡羊座" ;
+           else output.innerHTML ="金牛座" ;
+       }
+       else if (month == 5 )
+       {
+           if (day <= 21) output.innerHTML ="金牛座" ;
+           else output.innerHTML ="雙子座" ;
+       }
+       else if (month == 6 )
+       {
+           if (day <= 21) output.innerHTML ="雙子座" ;
+           else output.innerHTML ="巨蟹座" ;
+       }
+       else if (month == 7 )
+       {
+           if (day <= 23) output.innerHTML ="巨蟹座" ;
+           else output.innerHTML ="獅子座" ;
+       }
+       else if (month == 8 )
+       {
+           if (day <= 23) output.innerHTML ="獅子座" ;
+           else output.innerHTML ="處女座" ;
+       }
+       else if (month == 9 )
+       {
+           if (day <= 23) output.innerHTML ="處女座" ;
+           else output.innerHTML ="天秤座" ;
+       }
+       else if (month == 10 )
+       {
+           if (day <= 23) output.innerHTML ="天秤座";
+           else output.innerHTML ="天蠍座" ;
+       }
+       else if (month == 11 )
+       {
+           if (day <= 22) output.innerHTML ="天蠍座" ;
+           else output.innerHTML ="射手座" ;
+       }
+       else if (month == 12 )
+       {
+           if (day <= 22) output.innerHTML ="射手座" ;
+           else output.innerHTML ="摩羯座" ;
+       }
+   }
+   
+   
+</script>
+</head>
+<ul>
+<body>
+
+    <body>
+
+        <ul class="bar">
+            <li class="bar"><a href="#home">Home</a></li>
+            <li class="bar"><a href="https://peter8995.github.io/wd107b/finalExamSelfIntroduct.html">Self Introduction</a></li>
+            <li class="dropdown" style="float:right">
+            <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+            <div class="dropdown-content">
+                <a href="https://peter8995.github.io/wd107b/finalExamOrder.html">Order site</a>
+                <a href="https://peter8995.github.io/wd107b/finalExamConstellations.html">星座</a>
+            </div>
+            </li>
+        </ul>
+        <ul class="sidebar">
+            <li class="sidebar"><a class="active" href="#home">Home</a></li>
+            <li class="sidebar"><a href="#news">News</a></li>
+            <li class="sidebar"><a href="#contact">Contect</a></li>
+            <li class="sidebar"><a href="#about">About</a></li>
+        </ul>
+    
+    <div class="content">
+        <h2>星座辨識</h2>
+    
+        生日:
+        <form name = "birthday">
+            <select id = "monthSelect">
+                <option value = 1 selected>1</option>
+                <option value = 2 >2</option>
+                <option value = 3 >3</option>
+                <option value = 4 >4</option>
+                <option value = 5 >5</option>
+                <option value = 6 >6</option>
+                <option value = 7 >7</option>
+                <option value = 8 >8</option>
+                <option value = 9 >9</option>
+                <option value = 10 >10</option>
+                <option value = 11 >11</option>
+                <option value = 12 >12</option>
+            </select>
+            月
+            <select id = "daySelect">
+                <option value = 1 selected>1</option>
+                <option value = 2 >2</option>
+                <option value = 3 >3</option>
+                <option value = 4 >4</option>
+                <option value = 5 >5</option>
+                <option value = 6 >6</option>
+                <option value = 7 >7</option>
+                <option value = 8 >8</option>
+                <option value = 9 >9</option>
+                <option value = 10 >10</option>
+                <option value = 11 >11</option>
+                <option value = 12 >12</option>
+                <option value = 13 >13</option>
+                <option value = 14 >14</option>
+                <option value = 15 >15</option>
+                <option value = 16 >16</option>
+                <option value = 17 >17</option>
+                <option value = 18 >18</option>
+                <option value = 19 >19</option>
+                <option value = 20 >20</option>
+                <option value = 21 >21</option>
+                <option value = 22 >22</option>
+                <option value = 23 >23</option>
+                <option value = 24 >24</option>
+                <option value = 25 >25</option>
+                <option value = 26 >26</option>
+                <option value = 27 >27</option>
+                <option value = 28 >28</option>
+                <option value = 29 >29</option>
+                <option value = 30 >30</option>
+                <option value = 31 >31</option>
+            </select>
+            日
+            <br/>
+            <input type = "button" onclick = "Identification()" value = "辨識"></input>
+        </form>
+        <hr/>
+        <div id = "output"></div>
+    </div>
+</body>
+</html>
